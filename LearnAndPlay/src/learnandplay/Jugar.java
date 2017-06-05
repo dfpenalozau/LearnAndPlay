@@ -135,16 +135,19 @@ public class Jugar extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonVolverActionPerformed
 
     private void BotonVolverMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonVolverMouseClicked
+        this.setVisible(false);
         Introduccion jFrame= new Introduccion();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVolverMouseClicked
 
     private void BotonSurAmericaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonSurAmericaMouseClicked
+        this.setVisible(false);
         SurAmerica jFrame= new SurAmerica();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonSurAmericaMouseClicked
 
     private void BotonEuropaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonEuropaMouseClicked
+       this.setVisible(false);
         Europa jFrame= new Europa();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonEuropaMouseClicked

@@ -9,4 +9,7 @@ public class LearnAndPlay {
         
     }
     
+    public static void CalcularGanador(){
+        
+    }
 }

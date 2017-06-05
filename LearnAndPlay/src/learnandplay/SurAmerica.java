@@ -272,57 +272,68 @@ public class SurAmerica extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonVolverActionPerformed
 
     private void BotonVolverMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonVolverMouseClicked
+        this.setVisible(false);
         Jugar jFrame= new Jugar();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVolverMouseClicked
 
     private void BotonVenezuelaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonVenezuelaMouseClicked
+        this.setVisible(false);
         Paises10 jFrame= new Paises10();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVenezuelaMouseClicked
 
     private void BotonColombiaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonColombiaMouseClicked
+        this.setVisible(false);
         Paises4 jFrame= new Paises4();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonColombiaMouseClicked
 
     private void BotonEcuadorMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonEcuadorMouseClicked
+        this.setVisible(false);
         Paises6 jFrame= new Paises6();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonEcuadorMouseClicked
 
     private void BotonPerúMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonPerúMouseClicked
+        this.setVisible(false);
         Paises8 jFrame= new Paises8();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonPerúMouseClicked
 
     private void BotonBrasilMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonBrasilMouseClicked
+        this.setVisible(false);
         Paises3 jFrame= new Paises3();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonBrasilMouseClicked
 
     private void BotonBoliviaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonBoliviaMouseClicked
+        this.setVisible(false);
         Paises2 jFrame= new Paises2();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonBoliviaMouseClicked
 
     private void BotonChileMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonChileMouseClicked
+        this.setVisible(false);
         Paises5 jFrame= new Paises5();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonChileMouseClicked
 
     private void BotonParaguayMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonParaguayMouseClicked
+        this.setVisible(false);
         Paises7 jFrame= new Paises7();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonParaguayMouseClicked
 
     private void BotonUruguayMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonUruguayMouseClicked
+        this.setVisible(false);
         Paises9 jFrame= new Paises9();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonUruguayMouseClicked
 
     private void BotonArgentinaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonArgentinaMouseClicked
-        Paises1 jFrame= new Paises1();
+        this.setVisible(false);
+        Paises jFrame= new Paises();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonArgentinaMouseClicked
 

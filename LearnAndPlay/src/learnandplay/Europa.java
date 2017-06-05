@@ -100,6 +100,7 @@ public class Europa extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonVolverActionPerformed
 
     private void BotonVolverMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonVolverMouseClicked
+        this.setVisible(false);
         Jugar jFrame= new Jugar();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVolverMouseClicked

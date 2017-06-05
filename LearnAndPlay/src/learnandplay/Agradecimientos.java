@@ -100,6 +100,7 @@ public class Agradecimientos extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonVolverActionPerformed
 
     private void BotonVolverMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonVolverMouseClicked
+        this.setVisible(false);
         Introduccion jFrame= new Introduccion();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVolverMouseClicked

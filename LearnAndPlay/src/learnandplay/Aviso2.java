@@ -100,6 +100,7 @@ public class Aviso2 extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonVolverActionPerformed
 
     private void BotonVolverMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonVolverMouseClicked
+        this.setVisible(false);
         SurAmerica jFrame= new SurAmerica();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVolverMouseClicked

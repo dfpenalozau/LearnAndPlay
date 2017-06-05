@@ -138,16 +138,19 @@ public class Introduccion extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BotonJugarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonJugarMouseClicked
+        this.setVisible(false);
         Jugar jFrame= new Jugar();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonJugarMouseClicked
 
     private void BotonInstruccionesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonInstruccionesMouseClicked
+       this.setVisible(false);
         Instrucciones jFrame= new Instrucciones();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonInstruccionesMouseClicked
 
     private void BotonAgradecimientosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonAgradecimientosMouseClicked
+        this.setVisible(false);
         Agradecimientos jFrame= new Agradecimientos();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonAgradecimientosMouseClicked
@@ -161,6 +164,7 @@ public class Introduccion extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonContribuirMouseClicked
 
     private void BotonFuentesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonFuentesMouseClicked
+        this.setVisible(false);
         Fuentes jFrame= new Fuentes();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonFuentesMouseClicked
