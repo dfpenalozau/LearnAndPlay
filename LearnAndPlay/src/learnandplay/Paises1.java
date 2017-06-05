@@ -238,12 +238,14 @@ public class Paises1 extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonVolverActionPerformed
 
     private void BotonVolverMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonVolverMouseClicked
+        this.setVisible(false);
         SurAmerica jFrame= new SurAmerica();
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVolverMouseClicked
 
     private void BotonEcuaadorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonEcuaadorActionPerformed
-     Aviso1 miGrafica=new Aviso1();
+        this.setVisible(false);
+        Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;   // TODO add your handling code here:
     }//GEN-LAST:event_BotonEcuaadorActionPerformed
@@ -269,54 +271,63 @@ public class Paises1 extends javax.swing.JFrame {
     }//GEN-LAST:event_BotonChileActionPerformed
 
     private void BotonParaguayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonParaguayActionPerformed
-    Aviso1 miGrafica=new Aviso1();
+        this.setVisible(false);
+        Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;    // TODO add your handling code here:
     }//GEN-LAST:event_BotonParaguayActionPerformed
 
     private void BotonPeruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonPeruActionPerformed
-     Aviso1 miGrafica=new Aviso1();
+        this.setVisible(false);
+        Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;   // TODO add your handling code here:
     }//GEN-LAST:event_BotonPeruActionPerformed
 
     private void BotonUruguayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonUruguayActionPerformed
-    Aviso1 miGrafica=new Aviso1();
+        this.setVisible(false);
+        Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;    // TODO add your handling code here:
     }//GEN-LAST:event_BotonUruguayActionPerformed
 
     private void BotonVenezuelaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonVenezuelaActionPerformed
-    Aviso1 miGrafica=new Aviso1();
+        this.setVisible(false);
+        Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;    // TODO add your handling code here:
     }//GEN-LAST:event_BotonVenezuelaActionPerformed
     Jugador miJugador=new Jugador();
     private void BotonArgentinaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonArgentinaMouseClicked
+        this.setVisible(false);
         Aviso2 miGrafica=new Aviso2();
         miGrafica.setVisible(true);
         miJugador.Aciertos=miJugador.Aciertos+1; 
     }//GEN-LAST:event_BotonArgentinaMouseClicked
 
     private void BotonBoliviaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonBoliviaMouseClicked
+        this.setVisible(false);
         Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;
     }//GEN-LAST:event_BotonBoliviaMouseClicked
 
     private void BotonBrasilMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonBrasilMouseClicked
+       this.setVisible(false);
         Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;
     }//GEN-LAST:event_BotonBrasilMouseClicked
 
     private void BotonColombiaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonColombiaMouseClicked
+        this.setVisible(false);
         Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;        
     }//GEN-LAST:event_BotonColombiaMouseClicked
 
     private void BotonChileMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonChileMouseClicked
+        this.setVisible(false);
         Aviso1 miGrafica=new Aviso1();
         miGrafica.setVisible(true);
         miJugador.Aciertos=0;
