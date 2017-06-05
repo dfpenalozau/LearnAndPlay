@@ -7,7 +7,7 @@ public class Jugador {
     
     public void CalcularGanador(){
         if(Aciertos==5){
-            Aviso3 miGrafica=new Aviso3();
+            Aviso miGrafica=new Aviso();
             miGrafica.setVisible(true);
         }
     }
