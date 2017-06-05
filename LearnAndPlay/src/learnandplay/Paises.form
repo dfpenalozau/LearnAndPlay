@@ -59,7 +59,7 @@
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="BotonEcuaador" min="-2" pref="480" max="-2" attributes="0"/>
+                              <Component id="BotonEcuador" min="-2" pref="480" max="-2" attributes="0"/>
                               <Component id="BotonParaguay" min="-2" pref="480" max="-2" attributes="0"/>
                               <Component id="BotonPeru" min="-2" pref="480" max="-2" attributes="0"/>
                               <Component id="BotonUruguay" min="-2" pref="480" max="-2" attributes="0"/>
@@ -79,7 +79,7 @@
                   <Component id="BotonVolver" min="-2" pref="65" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="BotonEcuaador" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="BotonEcuador" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
                       <Component id="BotonArgentina" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -119,12 +119,12 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonVolverActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="BotonEcuaador">
+        <Component class="javax.swing.JToggleButton" name="BotonEcuador">
           <Properties>
             <Property name="text" type="java.lang.String" value="ECUADOR"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonEcuaadorActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonEcuadorActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JToggleButton" name="BotonArgentina">

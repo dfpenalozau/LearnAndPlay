@@ -10,6 +10,12 @@ public class Aviso extends javax.swing.JFrame {
     
     BufferedImage Imagen;
     
+    Paises MiPais=new Paises();
+    SurAmerica MiSurAmerica=new SurAmerica();
+    
+    int LaRespuesta=MiPais.Respuesta;
+    int ElPaisElegido=MiSurAmerica.PaisElegido;
+   
     void CargarImagen(File miArchivo){
         
         try {

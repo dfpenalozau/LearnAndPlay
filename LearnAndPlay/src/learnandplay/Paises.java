@@ -9,6 +9,17 @@ import javax.swing.ImageIcon;
 public class Paises extends javax.swing.JFrame {
     
     BufferedImage Imagen;
+    private int Respuesta;
+    
+    public void SetRespuesta(int Respuesta){
+        this.Respuesta=Respuesta;
+    }
+    
+    public int GetRespuesta(){
+        return this.Respuesta;
+    }
+    
+    
     
     void CargarImagen(File miArchivo){
         
@@ -41,7 +52,7 @@ public class Paises extends javax.swing.JFrame {
         miPanel = new javax.swing.JPanel();
         miImagenGrafica = new javax.swing.JLabel();
         BotonVolver = new javax.swing.JButton();
-        BotonEcuaador = new javax.swing.JToggleButton();
+        BotonEcuador = new javax.swing.JToggleButton();
         BotonArgentina = new javax.swing.JToggleButton();
         BotonBolivia = new javax.swing.JToggleButton();
         BotonBrasil = new javax.swing.JToggleButton();
@@ -66,10 +77,10 @@ public class Paises extends javax.swing.JFrame {
             }
         });
 
-        BotonEcuaador.setText("ECUADOR");
-        BotonEcuaador.addActionListener(new java.awt.event.ActionListener() {
+        BotonEcuador.setText("ECUADOR");
+        BotonEcuador.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BotonEcuaadorActionPerformed(evt);
+                BotonEcuadorActionPerformed(evt);
             }
         });
 
@@ -181,7 +192,7 @@ public class Paises extends javax.swing.JFrame {
                             .addComponent(BotonChile, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(miPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(BotonEcuaador, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(BotonEcuador, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BotonParaguay, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BotonPeru, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BotonUruguay, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -196,7 +207,7 @@ public class Paises extends javax.swing.JFrame {
                 .addComponent(BotonVolver, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(miPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BotonEcuaador, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BotonEcuador, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(BotonArgentina, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(miPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -243,11 +254,12 @@ public class Paises extends javax.swing.JFrame {
         jFrame.setVisible(true);
     }//GEN-LAST:event_BotonVolverMouseClicked
 
-    private void BotonEcuaadorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonEcuaadorActionPerformed
+    private void BotonEcuadorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonEcuadorActionPerformed
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
-    }//GEN-LAST:event_BotonEcuaadorActionPerformed
+        Respuesta=6;
+    }//GEN-LAST:event_BotonEcuadorActionPerformed
 
     private void BotonArgentinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonArgentinaActionPerformed
 
@@ -273,54 +285,63 @@ public class Paises extends javax.swing.JFrame {
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=8;
     }//GEN-LAST:event_BotonParaguayActionPerformed
 
     private void BotonPeruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonPeruActionPerformed
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=7;
     }//GEN-LAST:event_BotonPeruActionPerformed
 
     private void BotonUruguayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonUruguayActionPerformed
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=9;
     }//GEN-LAST:event_BotonUruguayActionPerformed
 
     private void BotonVenezuelaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonVenezuelaActionPerformed
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=10;
     }//GEN-LAST:event_BotonVenezuelaActionPerformed
 
     private void BotonArgentinaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonArgentinaMouseClicked
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=1;
     }//GEN-LAST:event_BotonArgentinaMouseClicked
 
     private void BotonBoliviaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonBoliviaMouseClicked
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=2;
     }//GEN-LAST:event_BotonBoliviaMouseClicked
 
     private void BotonBrasilMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonBrasilMouseClicked
        this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=3;
     }//GEN-LAST:event_BotonBrasilMouseClicked
 
     private void BotonColombiaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonColombiaMouseClicked
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);   
+        Respuesta=5;
     }//GEN-LAST:event_BotonColombiaMouseClicked
 
     private void BotonChileMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonChileMouseClicked
         this.setVisible(false);
         Aviso miGrafica=new Aviso();
         miGrafica.setVisible(true);
+        Respuesta=4;
     }//GEN-LAST:event_BotonChileMouseClicked
 
     /**
@@ -363,7 +384,7 @@ public class Paises extends javax.swing.JFrame {
     private javax.swing.JToggleButton BotonBrasil;
     private javax.swing.JToggleButton BotonChile;
     private javax.swing.JToggleButton BotonColombia;
-    private javax.swing.JToggleButton BotonEcuaador;
+    private javax.swing.JToggleButton BotonEcuador;
     private javax.swing.JToggleButton BotonParaguay;
     private javax.swing.JToggleButton BotonPeru;
     private javax.swing.JToggleButton BotonUruguay;
